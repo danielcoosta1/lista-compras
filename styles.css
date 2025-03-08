@@ -100,14 +100,11 @@ form {
     display: flex;
     gap: 8px;
 }
-x
-ul {
-    list-style-type: none;
-}
 
-.input-checkbox {
+
+/* .input-checkbox {
     display: none;
-}
+} */
 
 .checkbox-customizado {
     width: 20px;
