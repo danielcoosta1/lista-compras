@@ -1,11 +1,14 @@
+import verificarItemLista from "./scripts/verificarItemLista.js";
+
+
 const inputDigitaItem = document.getElementById("input-item");
 const btnSalvarItem = document.getElementById("adicionar-item");
 const listaDeCompras = document.getElementById("lista-de-compras");
-const mensagemListaVazia = document.querySelector(".mensagem-lista-vazia");
-
 
 let checkbox = 0;
 
+
+verificarItemLista(listaDeCompras);
 
 
 
