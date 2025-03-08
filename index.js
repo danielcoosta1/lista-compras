@@ -1,5 +1,5 @@
 import verificarItemLista from "./scripts/verificarItemLista.js";
-
+import formatarDataHora from "./scripts/formarData.js";
 
 const inputDigitaItem = document.getElementById("input-item");
 const btnSalvarItem = document.getElementById("adicionar-item");
@@ -15,7 +15,7 @@ btnSalvarItem.addEventListener("click",(e)=>{
    
 
    const item = inputDigitaItem.value;
-   
+   const dataFormatada = formatarDataHora();
 
    listaDeCompras.innerHTML += `
         <li>
@@ -23,7 +23,7 @@ btnSalvarItem.addEventListener("click",(e)=>{
               <input type="checkbox" id="${"checkbox-" + checkbox++}" class="input-checkbox" />
               <p class="nome-item">${item}</p>
             </div>
-            <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
+            <p class="texto-data">${dataFormatada}</p>
           </li>
    `;
    

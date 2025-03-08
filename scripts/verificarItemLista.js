@@ -13,4 +13,4 @@ function verificarItemLista(listaDeCompras){
 }
 
 
-export default verificarItemLista
+export default verificarItemLista;
