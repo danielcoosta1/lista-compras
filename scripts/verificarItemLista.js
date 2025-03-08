@@ -1,8 +1,11 @@
 const mensagemListaVazia = document.querySelector(".mensagem-lista-vazia");
 
+
 function verificarItemLista(listaDeCompras){
-    const listaDeComprasArray = listaDeCompras.querySelectorAll("li");
-    if(listaDeComprasArray.length === 0){
+
+    const itensDaLista = listaDeCompras.querySelectorAll("li");
+
+    if(itensDaLista.length === 0){
         mensagemListaVazia.style.display = "block";
     } else {
         mensagemListaVazia.style.display = "none";
@@ -10,4 +13,4 @@ function verificarItemLista(listaDeCompras){
 }
 
 
-export default verificarItemLista;
+export default verificarItemLista
