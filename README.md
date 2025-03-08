@@ -1,6 +1,6 @@
 <h1>Projeto Lista de Compras</h1>
 <p>Projeto ficticio da plataforma ALURA</p>
-<p>Refiz o projeto da Alura, usando meus conhecimentos JS, finalizando apenas a parte inicial do projeto</p>
+<p>Refiz o projeto da Alura, usando meus conhecimentos JS, finalizando apenas a parte inicial do projeto do FIGMA</p>
 
 
 <h2>:loudspeaker: Conceitos utilizados - JavaScript | HTML | CSS</h2>
